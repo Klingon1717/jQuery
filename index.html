@@ -10,14 +10,16 @@
 	<script type="text/javascript" src="jquery.min.js"></script> 
 </head>
 <body>
-	<div class="red"></div>
-	<div class="red"></div>
+
+	<!-- <div class="red"></div>
+	<div class="red"></div> -->
 	<div id="circle"></div>
+	<p>text</p>
 
 
 <script>
-	$("div").click(function(){
-		alert("lay off the div");
+	$("#circle").click(function(){
+		$("p").html("previous text got swappedd bammm");
 	});
 	// using class and id selectors to target an alert when a specific element is clicked on
 	// $("#circle").click(function(){
