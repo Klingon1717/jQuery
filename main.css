@@ -1,16 +1,16 @@
 body div{
 	height:60px;
 	width:60px;
-	margin-bottom: 10px;
+	margin-top: 10px;
 
 }
-.red div{
+.red {
 	background-color: red;
 
 }
-.circle{
+#circle{
 	background-color: green;
-	border-radius: 60px;
-	float:right;
+	border-radius: 30px;
+	
 }
 
