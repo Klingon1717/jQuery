@@ -15,13 +15,20 @@
 	<div class="red"></div> -->
 	<div id="circle"></div>
 	<p>text</p>
+	<iframe src ="http://www.cvs.com/"></iframe>
 
 
 <script>
 
 	$("#circle").hover(function(){
-		$("p").html('channnggaaareeewwwsskkiii');
+		alert($("iframe").attr("src"));
 	});
+
+
+	// Changing text when you hover over circle
+	// $("#circle").hover(function(){
+	// 	$("p").html('channnggaaareeewwwsskkiii');
+	// });
 
 
 	// Displaying the text in the <p> tag using an alert function
