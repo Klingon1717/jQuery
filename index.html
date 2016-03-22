@@ -11,18 +11,22 @@
 </head>
 <body>
 
-	<!-- <div class="red"></div>
-	<div class="red"></div> -->
+	<div class="red"></div>
+	<div class="red"></div> 
 	<div id="circle"></div>
 	<p>text</p>
-	<iframe src ="http://www.cnn.com/"></iframe>
+	<!--<iframe src ="http://www.cnn.com/"></iframe>-->
 
 
 <script>
 
-	$("#circle").hover(function(){
-		$("iframe").attr("src", "http://www.ecowebhosting.co.uk.com/");
-	});
+$(".red").click(function(){
+	alert($(".red").css("width"));
+});
+	// Changed the src attr in the iframe
+	// $("#circle").hover(function(){
+	// 	$("iframe").attr("src", "http://www.ecowebhosting.co.uk.com/");
+	// });
 
 
 	// Changing text when you hover over circle

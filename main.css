@@ -1,15 +1,17 @@
 body div{
-	height:60px;
-	width:60px;
 	margin-top: 10px;
 
 }
 .red {
 	background-color: red;
+	height:80px;
+	width:80px;
 
 }
 #circle{
 	background-color: green;
+	height:60px;
+	width:60px;
 	border-radius: 30px;
 	
 }
