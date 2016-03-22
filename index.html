@@ -19,8 +19,12 @@
 
 <script>
 	$("#circle").click(function(){
-		$("p").html("previous text got swappedd bammm");
+		$("#circle").click(function(){
+			alert($("p").html());
+		});
 	});
+
+		// $("p").html("previous text got swappedd bammm");
 	// using class and id selectors to target an alert when a specific element is clicked on
 	// $("#circle").click(function(){
 	// 	alert('cllllllliiiiiicckkkk');
